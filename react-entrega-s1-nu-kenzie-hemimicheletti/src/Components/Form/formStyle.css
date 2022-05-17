@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 363px;
+    height: 351px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.containerDescricao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 314px;
+    height: 110px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    margin: 38px 24px 19px 24px;
+}
+
+.containerDescricao p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+    margin-bottom: 12px;     
+    
+} 
+
+.containerDescricao span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #868E96;
+    margin-top: 4px;
+}
+
+.inputDescricao{
+    width: 314px;
+    height: 53px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;    
+}
+
+.containerValor{
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    width: 128px;
+    height: 79px;    
+}
+
+.containerValor input{
+    width: 128px;
+    height: 28px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.containerValor p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.botaoValor{
+    width: 314px;
+    height: 48px;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;  
+    margin-bottom: 38px;
+}
+
+.containerEntradas{
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    width: 128px;
+    height: 79px;
+    margin-left: 36px;
+}
+.containerEntradas option{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.containerEntradas p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.containerEntradas select{
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 128px;
+    height: 28px;
+}
+
+.valores{
+    width: 314px;
+    height: 79px;
+    display: flex;
+    margin: 19px 24px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+    .containerForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 363px;
+        height: 351px;
+        margin-bottom: 16px;
+        background: #FFFFFF;
+        border: 1px solid #E9ECEF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        
+    }
+    .containerDescricao{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 314px;
+        height: 110px;
+        margin-bottom: 30px;
+        align-items: flex-start;
+        margin: 38px 24px 19px 24px;
+    }
+    
+    .containerDescricao p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #212529;
+        margin-bottom: 12px;     
+        
+    } 
+    
+    .containerDescricao span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #868E96;
+        margin-top: 4px;
+    }
+    
+    .inputDescricao{
+        width: 250px;
+        height: 43px;
+        background: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        padding: 10px;    
+        margin: auto;
+    }
+    
+    .containerValor{
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-start;
+        width: 128px;
+        height: 79px;    
+    }
+    
+    .containerValor input{
+        width: 128px;
+        height: 28px;
+        background: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+    .containerValor p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .botaoValor{
+        width: 150px;
+        height: 43px;
+        background: #FD377E;
+        border: 2px solid #FD377E;
+        color: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;  
+        margin-bottom: 38px;
+    }
+    
+    .containerEntradas{
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-start;
+        width: 128px;
+        height: 79px;
+        margin-left: 36px;
+    }
+    .containerEntradas option{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    
+    .containerEntradas p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .containerEntradas select{
+        background: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 128px;
+        height: 28px;
+    }
+    
+    .valores{
+        width: 314px;
+        height: 79px;
+        display: flex;
+        margin: 10px 24px;
+        justify-content: space-between;
+    }
+
+}
